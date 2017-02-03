@@ -3,11 +3,13 @@ services:
   db:
     image: mysql
     environment:
-      MYSQL_ROOT_PASSWORD:password
+      - MYSQL_ROOT_PASSWORD:password
+
+    # just if you also want to access it directly from you host
+    # node needed for phpmyadmin
     ports:
-      # just if you also want to access it directly from you host
-      # node needed for phpmyadmin
       - "3306:3306"
+
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     depends_on:
