@@ -17,3 +17,7 @@ Edit the "ports" section in "docker-compose.yml" file in order to setup which po
 ```
 # docker-compose up
 ```
+
+## Acknowledgements
+
+http://stackoverflow.com/questions/39054411/docker-connecting-phpmyadmin-to-mysql-doesnt-work
