@@ -18,6 +18,8 @@ Edit the "ports" section in "docker-compose.yml" file in order to setup which po
 # docker-compose up
 ```
 
+- Access phpMyAdmin through http://localhost:8080. For "server name" put *db*, "user name" should be *root*, and the password that you specificed in "docker-compose.yml"
+
 ## Acknowledgements
 
 http://stackoverflow.com/questions/39054411/docker-connecting-phpmyadmin-to-mysql-doesnt-work
