@@ -3,7 +3,7 @@ services:
   db:
     image: mysql
     environment:
-      - MYSQL_ROOT_PASSWORD:password
+      MYSQL_ROOT_PASSWORD: password
 
     # just if you also want to access it directly from you host
     # node needed for phpmyadmin
